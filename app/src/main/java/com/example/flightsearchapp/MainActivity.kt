@@ -13,7 +13,6 @@ import com.example.flightsearchapp.data.repository.FlightSearchRepository
 import com.example.flightsearchapp.ui.theme.FlightSearchAppTheme
 import com.example.flightsearchapp.ui.viewmodels.FlightSearchViewModel
 
-
 class MainActivity : ComponentActivity() {
     private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name="search_preferences")
 
