@@ -8,6 +8,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flow
 
+
 class FlightSearchRepository(
     private val airportDao: AirportDao,
     private val favoriteDao: FavoriteDao

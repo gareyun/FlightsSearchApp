@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import com.example.flightsearchapp.data.models.Airport
 import com.example.flightsearchapp.ui.components.AirportCard
 
+
 @Composable
 fun AirportList(
     airports: List<Airport>,

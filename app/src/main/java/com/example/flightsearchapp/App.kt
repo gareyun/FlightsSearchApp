@@ -6,6 +6,7 @@ import androidx.compose.runtime.Composable
 import com.example.flightsearchapp.ui.screens.MainScreen
 import com.example.flightsearchapp.ui.viewmodels.FlightSearchViewModel
 
+
 @Composable
 fun App(
     viewModel: FlightSearchViewModel

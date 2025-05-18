@@ -11,6 +11,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.map
 
+
 class SearchPreference(private val dataStore: DataStore<Preferences>) {
     private companion object{
         val QUERY_KEY = stringPreferencesKey("search_query")

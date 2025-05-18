@@ -7,6 +7,7 @@ import androidx.room.Query
 import com.example.flightsearchapp.data.models.Favorite
 import kotlinx.coroutines.flow.Flow
 
+
 @Dao
 interface FavoriteDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
