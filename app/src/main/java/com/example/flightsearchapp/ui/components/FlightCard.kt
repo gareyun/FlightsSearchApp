@@ -39,6 +39,7 @@ import androidx.compose.ui.unit.sp
 import com.example.flightsearchapp.R
 import com.example.flightsearchapp.data.models.Flight
 
+
 @Composable
 fun FlightCard(
     flight: Flight,

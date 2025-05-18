@@ -17,6 +17,7 @@ import com.example.flightsearchapp.data.models.Favorite
 import com.example.flightsearchapp.data.models.Flight
 import com.example.flightsearchapp.ui.components.FlightCard
 
+
 @Composable
 fun FlightList(
     departureAirport: Airport,

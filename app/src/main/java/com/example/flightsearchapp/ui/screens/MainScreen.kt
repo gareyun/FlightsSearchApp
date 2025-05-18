@@ -41,6 +41,7 @@ import androidx.compose.ui.res.imageResource
 import com.example.flightsearchapp.R
 
 
+
 @Composable
 fun MainScreen(viewModel: FlightSearchViewModel) {
     val query by viewModel.searchQuery.collectAsState()

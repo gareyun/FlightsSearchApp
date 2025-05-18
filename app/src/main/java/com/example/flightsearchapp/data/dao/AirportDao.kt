@@ -5,6 +5,7 @@ import androidx.room.Query
 import com.example.flightsearchapp.data.models.Airport
 import kotlinx.coroutines.flow.Flow
 
+
 @Dao
 interface AirportDao {
     @Query("SELECT * FROM airport WHERE name LIKE :query OR iata_code LIKE :query")

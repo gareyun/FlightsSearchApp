@@ -16,6 +16,7 @@ import androidx.compose.ui.unit.dp
 import com.example.flightsearchapp.data.models.Favorite
 import com.example.flightsearchapp.ui.components.FavoriteCard
 
+
 @SuppressLint("StateFlowValueCalledInComposition")
 @Composable
 fun FavoriteList(

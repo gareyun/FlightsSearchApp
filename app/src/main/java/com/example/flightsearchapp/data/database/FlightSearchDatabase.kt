@@ -9,6 +9,7 @@ import com.example.flightsearchapp.data.dao.FavoriteDao
 import com.example.flightsearchapp.data.models.Airport
 import com.example.flightsearchapp.data.models.Favorite
 
+
 @Database(entities = [Airport::class, Favorite::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun airportDao(): AirportDao
